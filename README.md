@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# News Daily
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+#### News Daily is a React application that displays news articles based on different categories. The app fetches news data from the NEWS API and filters out articles without authors. Users can browse news by category to stay informed on various topics.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+#### - Display news articles from various categories using filter button option.
+#### - Fetch news data from NEWS API.
+#### - Filter out articles with no author.
+#### - Responsive design for mobile and desktop views.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+#### - React
+#### - Fetch API
+#### - NEWS API
+#### - Tailwind CSS
+#### - Material UI
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### - Node.js and npm installed on your local machine.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### 1. Clone the repository:
 
-### `npm run eject`
+    ```bash
+    git clone https://github.com/LORD-JINXXX/News_Daily.git
+    cd news_daily
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### 2. Install the dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ```bash
+    npm install
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### 3. Create a `.env` file in the root directory and add your NEWS API key:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    ```env
+    REACT_APP_API_KEY=your_api_key_here
+    ```
 
-## Learn More
+#### 4. Start the development server:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    ```bash
+    npm start
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    The app will be available at `http://localhost:3000`.
 
-### Code Splitting
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### 1. Open the app in your browser.
+#### 2. Select a news category from the menu.
+#### 3. Browse the news articles displayed based on the selected category.
 
-### Analyzing the Bundle Size
+## Code Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### - `src/components`: Contains the React components for the app.
+#### - `src/router.js`: Main component that sets up routes and category selection.
+#### - `src/index.js`: Entry point of the application.
 
-### Making a Progressive Web App
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+#### Fork the repository.
+#### Create a new branch: git checkout -b feature-branch-name.
+#### Make your changes and commit them: git commit -m 'Add some feature'.
+#### Push to the branch: git push origin feature-branch-name.
+#### Submit a pull request.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
