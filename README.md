@@ -30,28 +30,28 @@
 
 #### 1. Clone the repository:
 
-    ```
+    
     git clone https://github.com/LORD-JINXXX/News_Daily.git
     cd news_daily
-    ```
+    
 
 #### 2. Install the dependencies:
 
-    ```
+    
     npm install
-    ```
+    
 
 #### 3. Create a `.env` file in the root directory and add your NEWS API key:
 
-    ```env
+    env
     REACT_APP_API_KEY=your_api_key_here
-    ```
+    
 
 #### 4. Start the development server:
 
-    ```
+    
     npm start
-    ```
+    
 
     The app will be available at `http://localhost:3000`.
 
