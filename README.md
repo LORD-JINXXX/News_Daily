@@ -30,14 +30,14 @@
 
 #### 1. Clone the repository:
 
-    ```bash
+    ```
     git clone https://github.com/LORD-JINXXX/News_Daily.git
     cd news_daily
     ```
 
 #### 2. Install the dependencies:
 
-    ```bash
+    ```
     npm install
     ```
 
@@ -49,7 +49,7 @@
 
 #### 4. Start the development server:
 
-    ```bash
+    ```
     npm start
     ```
 
